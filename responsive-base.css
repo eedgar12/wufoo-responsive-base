@@ -1,0 +1,14 @@
+/* Wufoo Custom CSS */
+#container, html.embed{
+	background:#ddd !important;
+}
+.wufoo li.focused{
+	background-color:#c69a79 !important;
+}
+.wufoo label.desc, .wufoo legend.desc,
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{
+	color: #333;
+}
+li.newline span:first-child{
+	clear:both !important;
+}
