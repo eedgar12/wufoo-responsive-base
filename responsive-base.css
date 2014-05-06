@@ -1,18 +1,11 @@
 /* Wufoo Custom CSS */
-#container, html.embed{
-	background:transparent !important;
-}
-.wufoo li.focused{
-	background-color:#fff !important;
-}
-.wufoo label.desc, .wufoo legend.desc,
-.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{
-	color: #333;
+
+.wufoo li{
+	width: 98%;
 }
 
-@media only screen and (max-width: 480px){
-	
-	li.newline span:first-child{
-		clear:both !important;
-	}
+form li label,
+form li div,
+ {
+	width: 100% !important;
 }
